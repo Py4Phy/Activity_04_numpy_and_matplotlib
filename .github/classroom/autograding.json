@@ -101,6 +101,36 @@
       "points": 1
     },
     {
+      "name": "Test: Problem 2 / all y coordinates",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_all_y_coordinates.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / all y coordinates shape",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_all_y_coordinates_shape.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / all y coordinates ndim",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_all_y_coordinates_ndim.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
       "name": "Test: Problem 2 / translate particles",
       "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest --tb=short tests/problem_2/test_translate_particles.py",
