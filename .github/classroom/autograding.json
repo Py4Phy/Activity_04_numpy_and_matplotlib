@@ -133,7 +133,7 @@
     {
       "name": "Test: Problem 2 / translate particles",
       "setup": "sudo -H pip3 install pytest numpy",
-      "run": "pytest --tb=short tests/problem_2/test_translate_particles.py",
+      "run": "pytest --tb=line tests/problem_2/test_translate_particles.py",
       "input": "",
       "output": "",
       "comparison": "included",

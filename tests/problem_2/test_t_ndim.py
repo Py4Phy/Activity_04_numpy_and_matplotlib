@@ -12,7 +12,7 @@ FILENAME = 'problem2.py'
 POINTS = 1
 
 def test_t_ndim():
-    return _test_variable("result2d_dimensions", 1,
+    return _test_variable("result2b_dimensions", 1,
                           FILENAME,
                           check_type=False,
                           rtol=None,
