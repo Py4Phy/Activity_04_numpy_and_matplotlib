@@ -38,7 +38,8 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 2
+      "points": 2,
+      "extra": true
     },
     {
       "name": "Test: Problem 2 / positions shape",
